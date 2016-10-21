@@ -1,0 +1,9 @@
+<view>
+  <view wx:for="{{datas}}">
+    <text>{{item.desc}}</text>
+    <view>
+      <text>{{item.who}}</text>
+      <text>{{item.publishedAt}}</text>
+    </view>
+  </view>
+</view>

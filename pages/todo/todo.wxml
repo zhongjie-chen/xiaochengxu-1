@@ -1,0 +1,17 @@
+<view class="container">
+  <scroll-view scroll-y="true" style="height: 200px;">
+    <view class="item">
+      <view class="wrap" wx:for="{{todos}}">
+        <text>{{index + 1}}: {{item}}</text>
+        <icon data-index="{{index}}" bindtap="onDone" type="success" size="20"/>
+      </view>
+    </view>
+  </scroll-view>
+  <view>
+    <toast hidden="{{toast.isHidden}}" bindchange="toastChange" duration="1000">
+     {{toast.message}}
+    </toast>
+    <input placeholder="请输入任务" bindinput="onInput" />
+    <button type="primary" size="{{mini}}" bindtap="addTask"> 增加任务 </button>
+  </view>
+</view>

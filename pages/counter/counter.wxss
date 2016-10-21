@@ -1,0 +1,10 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+text {
+  color: red;
+  font-size: 100rpx;
+}

@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/counter/counter",
+    "pages/todo/todo",
+    "pages/repo/repo",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff0",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": "ture",
+    "backgroundTextStyle": "dark"
+  },
+  "debug": "true"
+}
